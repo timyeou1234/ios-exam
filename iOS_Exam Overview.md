@@ -1,12 +1,31 @@
 # iOS_Exam Overview
 
-Structure -> 
+==== File Structure ====
 
-**MainList :** Use MVVM design pattern for ContactListViewController the main list to reduce the size of api logic and refresh activity in single viewController.
+## Service
+
+Use to send Api to get random user information.
 
 *  Use this service to get random user information <https://randomuser.me/documentation#multiple>
 
-**DetailPage :** Use tradition MVC pattern to simplfy code and logic.
+## Model
+
+Use to define the struct of data.
+
+*  Use codable to transform json data to custom object.
+
+## Module
+
+**ContactList :** Use MVVM design pattern for ContactListViewController the main list to reduce the size of api logic and refresh activity in single viewController.
+
+
+**ContactDetail :** Use tradition MVC pattern to simplfy code and logic.
+
+## View
+
+To Custom the cell use from tableView  
+
+*  All views use autolayout.
 
 ## Optional requirements
 
