@@ -25,6 +25,7 @@
 		6B69010921F3647600DE5395 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69010821F3647500DE5395 /* Define.swift */; };
 		6B69011B21F36E3900DE5395 /* ContactListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69011A21F36E3900DE5395 /* ContactListViewModelTests.swift */; };
 		6B69011D21F373CB00DE5395 /* RandomContactServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B69011C21F373CB00DE5395 /* RandomContactServiceTest.swift */; };
+		6B69012021F471C400DE5395 /* UserJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B69011F21F471C400DE5395 /* UserJson.json */; };
 		962A500663A4C23777731773 /* Pods_iOS_ExamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3AAFD1705A7674F5E96878 /* Pods_iOS_ExamTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		6B69011421F36E0100DE5395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B69011A21F36E3900DE5395 /* ContactListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModelTests.swift; sourceTree = "<group>"; };
 		6B69011C21F373CB00DE5395 /* RandomContactServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomContactServiceTest.swift; sourceTree = "<group>"; };
+		6B69011F21F471C400DE5395 /* UserJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserJson.json; sourceTree = "<group>"; };
 		7A2D26766D9317500FCF3D87 /* Pods-iOS_Exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Exam.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Exam/Pods-iOS_Exam.release.xcconfig"; sourceTree = "<group>"; };
 		AF3AAFD1705A7674F5E96878 /* Pods_iOS_ExamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_ExamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C801F4D0E5FDF5584DA3E30B /* Pods-iOS_ExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_ExamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_ExamTests/Pods-iOS_ExamTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				6B69011A21F36E3900DE5395 /* ContactListViewModelTests.swift */,
 				6B69011C21F373CB00DE5395 /* RandomContactServiceTest.swift */,
 				6B69011421F36E0100DE5395 /* Info.plist */,
+				6B69011F21F471C400DE5395 /* UserJson.json */,
 			);
 			path = iOS_ExamTests;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B69012021F471C400DE5395 /* UserJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
