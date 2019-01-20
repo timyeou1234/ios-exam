@@ -23,6 +23,7 @@ class ContactListViewModelTests: XCTestCase {
         viewModel = nil
     }
     
+    /// Test if enter empty array will cause un expected error
     func testInputNilProccessContactList(){
         viewModel.processContactList([ContactModel]())
         XCTAssert(viewModel.numberOfCells == 0)

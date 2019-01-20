@@ -58,6 +58,7 @@ class RandomContactServiceTest: XCTestCase {
         waitForExpectations(timeout: 5, handler: nil)
     }
     
+    ///Test if the data proccess working using local json data
     func testNormalRespones() {
         // given
         let url = URL(string: "api/TestSuccess")
