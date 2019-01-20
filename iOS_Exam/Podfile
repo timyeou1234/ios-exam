@@ -8,4 +8,10 @@ target 'iOS_Exam' do
   # Pods for iOS_Exam
   pod 'Alamofire'
 
+  target 'iOS_ExamTests' do
+      inherit! :search_paths
+      pod 'Alamofire'
+      pod 'Quick'
+      pod 'Mockingjay'
+  end
 end
